@@ -1,10 +1,23 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #c7f2ff;
+    border-radius: 5px;
+
+}
 .control-app-container {
     display: flex;
     align-items: flex-start; /* Alinea los elementos verticalmente arriba */
     gap: 5px; /* Espacio entre las secciones */
     padding: 20px;
-    height: 600px; /* Altura fija del contenedor principal */
+    height: 100%px; /* Altura fija del contenedor principal */
     overflow: hidden; /* Oculta el contenido que se desborde */
+    background-color: rgb(96, 255, 255);
+    border-radius: 5px;
 }
 
 .control-brazo-container {
@@ -15,12 +28,14 @@
 }
 
 .video-section {
+    background-color: blue;
+
     flex: 2; /* El video ocupa más espacio */
     position: relative; /* Permite posicionar el video de manera absoluta */
-; /* Proporción de 16:9 para el contenedor del video */
     overflow: hidden; /* Oculta el contenido que se desborde */
     display: flex;
     justify-content: center; /* Centra horizontalmente el contenido del video */
     align-items: center; /* Centra verticalmente el contenido del video */
+    border-radius: 7px;
 }
 

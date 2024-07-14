@@ -11,10 +11,8 @@ const Slider = ({ name }) => {
 
     return (
         <div className="slider-container">
-            <label htmlFor={`${name}_slider`}>{name}: </label>
-            <br />
-            <label htmlFor={`${name}_slider`}>{value}: </label>
-            <br />
+            <label className="name-label" htmlFor={`${name}_slider`}>{name}: </label>
+            <label className="value-label" htmlFor={`${name}_slider`}>{value}</label>
             <input
                 type="range"
                 min="0"

@@ -2,12 +2,20 @@
     padding: 10px; /* Añade espacio alrededor del contenedor */
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #E0E0E0; /* Gris Claro */
+    background-color: #c7f2ff; /* Gris Claro */
+    height: 100%;
+    max-width: 345px;
 }
 
 .control-brazo-label {
     display: block;
     margin-bottom: 10px; /* Espacio debajo del label */
-    font-size: 18px; /* Tamaño de fuente para el label */
+    font-size: 25px; /* Tamaño de fuente para el label */
     color: #4535C1; /* Azul Oscuro */
+}
+.slider-container {
+    width: 93%; /* Ancho del contenedor de sliders */
+}
+#cambiar-btn{
+    width: 90% !important;
 }

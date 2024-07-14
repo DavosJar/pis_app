@@ -12,6 +12,8 @@ const VideoPlayer = ({ videoUrl, title }) => {
                 className="video-player"
                 url={videoUrl}
                 controls
+                width="100%"  // Esto asegura que tome el 100% del ancho del contenedor
+                height="auto" // Esto permite que la altura se ajuste automáticamente
             />
             <Slider name="Camera" />
         </div>

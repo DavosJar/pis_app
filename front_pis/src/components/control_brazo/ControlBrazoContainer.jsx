@@ -13,7 +13,7 @@ function ControlBrazoContainer() {
             <Slider name="Hombro" initialValue={90} />
             <Slider name="Codo" initialValue={90} />
             <Slider name="Pinza" initialValue={90} />
-            <Boton name="Cambiar Control" />
+            <Boton name="Cambiar" />
         </div>
     );
 }

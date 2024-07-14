@@ -1,0 +1,16 @@
+.boton {
+    font-size: 20px;
+    color: #FFFFFF; /* Blanco */
+    background-color: #4535C1; /* Azul Oscuro */
+    border: 2px solid #4535C1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+.boton:hover {
+    background-color: #35B1C1; /* Turquesa */
+    color: #4535C1; /* Azul Oscuro */
+}
