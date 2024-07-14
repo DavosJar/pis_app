@@ -17,7 +17,7 @@
 .slider-container .name-label {
     grid-row: 1 / 2; /* Ocupa la primera fila */
     grid-column: 1 / 2; /* Ocupa la primera columna */
-    font-size: 20   px;
+    font-size: 20px;
     color: #4535C1; /* Azul Oscuro */
 }
 

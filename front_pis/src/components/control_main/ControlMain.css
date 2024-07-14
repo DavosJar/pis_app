@@ -3,7 +3,7 @@
     align-items: flex-start; /* Alinea los elementos verticalmente arriba */
     gap: 5px; /* Espacio entre las secciones */
     padding: 20px;
-    height: 400px; /* Altura fija del contenedor principal */
+    height: 600px; /* Altura fija del contenedor principal */
     overflow: hidden; /* Oculta el contenido que se desborde */
 }
 

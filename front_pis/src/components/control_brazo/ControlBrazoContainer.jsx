@@ -2,18 +2,20 @@
 import React from 'react';
 import Slider from '../sliders/Slider'; // Ruta ajustada
 import './ControlBrazoContainer.css'; // Importa el archivo CSS
+import Boton from '../boton/Boton'; // Ruta ajustada
 
 
-const ControlBrazoContainer = () => {
+function ControlBrazoContainer() {
     return (
         <div className="control-brazo-container">
             <label className="control-brazo-label">Control Brazo</label>
             <Slider name="Base" initialValue={90} />
             <Slider name="Hombro" initialValue={90} />
             <Slider name="Codo" initialValue={90} />
-            <Slider name="Muñeca" initialValue={90} />
+            <Slider name="Pinza" initialValue={90} />
+            <Boton name="Cambiar Control" />
         </div>
     );
-};
+}
 
 export default ControlBrazoContainer;
