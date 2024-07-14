@@ -1,0 +1,74 @@
+/* Slider.css */
+
+.slider-container {
+    display: grid;
+    height: 60px;
+    grid-template-rows: auto auto; /* Dos filas de altura automática */
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de ancho igual */
+    gap: 10px; /* Espacio entre las filas y columnas */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFFFFF; /* Blanco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Ancho fijo de 300px */
+}
+
+.slider-container .name-label {
+    grid-row: 1 / 2; /* Ocupa la primera fila */
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    font-size: 20   px;
+    color: #4535C1; /* Azul Oscuro */
+}
+
+.slider-container .value-label {
+    grid-row: 1 / 2; /* Ocupa la primera fila */
+    grid-column: 3 / 4; /* Ocupa la tercera columna */
+    font-size: 20px;
+    color: #4535C1; /* Azul Oscuro */
+    text-align: right; /* Alinear el texto a la derecha */
+}
+
+.slider-container input[type="range"] {
+    grid-row: 2 / 3; /* Ocupa la segunda fila */
+    grid-column: 1 / 4; /* Ocupa todas las columnas */
+    width: 100%; /* Ancho completo */
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(to right, #4535C1, #35B1C1);
+    border: 1px solid #4535C1;
+    border-radius: 5px;
+    height: 8px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px; /* Reducir espacio superior */
+}
+
+.slider-container input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF; /* Blanco */
+    border: 2px solid #4535C1; /* Borde grueso Azul Oscuro */
+    border-radius: 50%; /* Borde circular */
+    cursor: pointer;
+}
+
+.slider-container input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF; /* Blanco */
+    border: 2px solid #4535C1; /* Borde grueso Azul Oscuro */
+    border-radius: 50%; /* Borde circular */
+    cursor: pointer;
+}
+
+.slider-container input[type="range"]::-ms-thumb {
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF; /* Blanco */
+    border: 2px solid #4535C1; /* Borde grueso Azul Oscuro */
+    border-radius: 50%; /* Borde circular */
+    cursor: pointer;
+}

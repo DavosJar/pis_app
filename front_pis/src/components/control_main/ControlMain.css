@@ -1,0 +1,26 @@
+.control-app-container {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos verticalmente arriba */
+    gap: 5px; /* Espacio entre las secciones */
+    padding: 20px;
+    height: 400px; /* Altura fija del contenedor principal */
+    overflow: hidden; /* Oculta el contenido que se desborde */
+}
+
+.control-brazo-container {
+    flex: 1; /* El control de brazo ocupa el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.video-section {
+    flex: 2; /* El video ocupa más espacio */
+    position: relative; /* Permite posicionar el video de manera absoluta */
+; /* Proporción de 16:9 para el contenedor del video */
+    overflow: hidden; /* Oculta el contenido que se desborde */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido del video */
+    align-items: center; /* Centra verticalmente el contenido del video */
+}
+
